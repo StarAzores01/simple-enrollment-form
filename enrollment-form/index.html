@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Enrollment Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <form action=" " method="get">
+    <div class="logo">
+        <img src="img/slsu.png" class="slsu">
+        <img src="img/cit.png" class="cit">
+    </div>
+
+    <h1>Student Enrollment Form</h1>
+
+    <!-- Text Inputs -->
+    <label for="fullname">Enter your name:</label><br>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+
+    <label for="email">Enter your email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    
+    <label for="address">Enter your address:</label><br>
+    <input type="text" id="address" name="address" required><br><br>
+    
+    <label for="age">Enter your age:</label><br>
+    <input type="number" id="age" name="age" required><br><br>
+    
+    
+    <label for="day">Enter fill up date:</label><br>
+    <input type="date" id="day" name="day" required><br><br>
+    
+    
+    <!-- for gender selection -->
+    
+    <h4>Gender:</h4>
+   
+
+    <div class="radio-group">
+      <input type="radio" id="male" name="gender" value="male" checked>
+      <label for="male">Male</label>
+    </div>
+    
+
+    <div class="radio-group">
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+    </div>
+    
+
+    <div class="radio-group">
+      <input type="radio" id="others" name="gender" value="others">
+      <label for="others">Others</label>
+    </div>
+
+    
+    <!-- for Course Selection -->
+
+    <h4>Courses Interested:</h4>
+
+    <div class="radio-group">
+        <input type="radio" id="html" name="course" value="HTML" required>
+        <label for="html">HTML</label><br>    
+    </div>
+  
+      
+    <div class="radio-group">
+        <input type="radio" id="css" name="course" value="CSS">
+        <label for="css">CSS</label><br>      
+    </div>
+  
+      
+    <div class="radio-group">
+        <input type="radio" id="javascript" name="course" value="JavaScript">
+        <label for="javascript">JavaScript</label><br>     
+    </div>
+  
+    
+    <div class="radio-group">
+        <input type="radio" id="python" name="course" value="Python">
+        <label for="python">Python</label><br><br>
+    </div>
+    
+   
+
+    <input type="submit" value="Submit">
+  </form>
+    
+</body>
+</html>

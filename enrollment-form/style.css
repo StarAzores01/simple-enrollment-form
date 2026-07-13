@@ -1,0 +1,114 @@
+body {
+    color: rgb(134, 186, 169);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh; /* Full viewport height */
+    margin: 0;
+    padding: 40px 20px; /* Adds space around the form */
+    background: #020024;
+    background: linear-gradient(to bottom right, #636eab,  #0a0d4f);
+}
+
+
+/* Form Container */
+form {
+    margin: 40px 20px;
+    width: 700px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 40px 20px;
+    box-shadow: 0 0 10px rgba(93, 106, 163, 0.5); /* Brown shadow */
+    font-family: Arial, sans-serif;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically centers the images */
+    padding: 0 20px; 
+}
+
+
+.slsu,
+.cit {
+  height: 40px;
+  object-fit: contain; /* Ensures the aspect ratio is maintained */
+}
+
+
+/* Form Heading */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Section Headings */
+h4 {
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Text Inputs */
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Radio Buttons */
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Radio Button Labels */
+input[type="radio"] + label {
+    margin-right: 20px;
+    font-weight: normal;
+    color: #444;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust spacing between options */
+  }
+  
+  .radio-group input[type="radio"] {
+    margin-right: 10px; /* Space between radio button and label */
+  }
+  
+
+/* Submit Button */
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #5cb85c; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Submit Button Hover Effect */
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
